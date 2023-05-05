@@ -23,5 +23,5 @@ function addNumbers () {
     // Grab the <p> element with an id of 'sum'
     let sumElement = document.getElementById('sum');
     // Change the 'textContent' property of the element to the sum
-    sumElement.textContent = sum;
+    sumElement.value = sum;
 }
